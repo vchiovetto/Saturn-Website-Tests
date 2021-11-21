@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 1,
+    "id": "register",
+    "tags": [],
+    "uri": "Register.feature",
+    "elements": [
+      {
+        "id": "register;register",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I enter into the Saturn website",
+            "result": {
+              "status": "passed",
+              "duration": 3678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I close the cookies alert",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click in the profile icon",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

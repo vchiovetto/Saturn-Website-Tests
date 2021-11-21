@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 1,
+    "id": "register",
+    "tags": [],
+    "uri": "InvalidRegister.feature",
+    "elements": [
+      {
+        "id": "register;register",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that enter into the Saturn website",
+            "result": {
+              "status": "passed",
+              "duration": 3983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "close the cookies alert",
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click in the profile icon",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "choose the to register option",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "type an invalid email",
+            "result": {
+              "status": "passed",
+              "duration": 518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "click in the submit button",
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "an error message appear",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
