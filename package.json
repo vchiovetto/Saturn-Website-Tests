@@ -1,0 +1,37 @@
+{
+  "name": "Saturn-Website-Tests",
+  "version": "1.0.0",
+  "description": "\"# Saturn-Website-Tests\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vchiovetto/Saturn-Website-Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^2.5.4",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.0",
+    "faker": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/vchiovetto/Saturn-Website-Tests/issues"
+  },
+  "homepage": "https://github.com/vchiovetto/Saturn-Website-Tests#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
